@@ -27,13 +27,13 @@ public enum Stage: Int, CaseIterable, Sendable {
         let bottom = n.color(.D), top = n.color(.U)
         switch self {
         case .cross:
-            return "Ułóż \(bottom.feminine) krzyż na dolnej ścianie. Każda krawędź krzyża musi drugim kolorem pasować do środka ściany bocznej – sam krzyż na dole to za mało."
+            return "Ułóż \(bottom.name) krzyż na dolnej ścianie. Każda krawędź krzyża musi drugim kolorem pasować do środka ściany bocznej – sam krzyż na dole to za mało."
         case .firstLayerCorners:
             return "Wstaw cztery narożniki z \(bottom.instrumental) kolorem w rogi dolnej warstwy. Po tym etapie cała pierwsza warstwa jest gotowa."
         case .middleLayer:
             return "Wstaw cztery krawędzie bez \(top.genitive) koloru w środkową warstwę. Po tym etapie dwie warstwy są ułożone."
         case .yellowCross:
-            return "Ułóż \(top.feminine) krzyż na górnej ścianie (na razie liczy się tylko góra, nie boki)."
+            return "Ułóż \(top.name) krzyż na górnej ścianie (na razie liczy się tylko góra, nie boki)."
         case .yellowEdges:
             return "Przestaw krawędzie górnego krzyża, żeby ich boczne kolory pasowały do środków."
         case .yellowCornersPosition:
