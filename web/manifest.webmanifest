@@ -1,0 +1,11 @@
+{
+  "name": "Kostka",
+  "short_name": "Kostka",
+  "description": "Sfotografuj kostkę Rubika i ułóż ją krok po kroku.",
+  "lang": "pl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef1f4",
+  "theme_color": "#00864a",
+  "icons": [{ "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }]
+}

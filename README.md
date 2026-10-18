@@ -16,6 +16,12 @@ Aplikacja w przeglądarce, działa też na iPhonie (Safari → Udostępnij → �
 | `web/index.html` | Strona i style. |
 | `web/test.js` | Testy rdzenia: `node web/test.js 1000` (układa 1000 losowych pomieszań). |
 
+## Gdzie działa
+
+Na serwerze mikr.us (natalia148): **https://kostka.mikrus.dev/** – statyczne pliki w `/var/www/kostka`, nginx na `[::]:8148`.
+
+Aktualizacja: `cd web && python3 build_site.py ścieżka/do/three.min.js` (three.js r128), potem skopiować zawartość `web/dist/` do `/var/www/kostka`.
+
 ## Uruchomienie lokalne
 
 ```sh
